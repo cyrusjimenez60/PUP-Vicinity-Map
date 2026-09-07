@@ -1,0 +1,147 @@
+html, body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #700000;
+    padding: 10px 10px;
+    flex-shrink: 0;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.brand{
+    width: 500px;
+    display: flex;
+}
+
+.brand-logo{
+    width: 70px;
+    height: auto;
+}
+
+.brand-logo img{
+    width: 50px;
+    height: auto; 
+}
+
+.brand-name{
+    width: 100%;
+    text-align: left;
+    color: rgb(243, 188, 27);                                                                   
+}
+
+.brand-name .title{
+    margin: 0;
+    font-size: clamp(14px, 4.5vw, 25px);
+}
+
+.brand-name .sub{
+    margin: 0;
+    font-size: clamp(10px, 2.8vw, 16px);
+}
+
+.container a {
+    color: inherit; 
+    text-decoration: none;
+}
+
+
+
+main {
+    width: 100%;
+    height: calc(100vh - 120px); /* Subtract the header and footer height which is 120px */
+    flex-grow: 1; /* Allow main to take up the remaining space */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #FCFCF7;
+    
+}
+
+main #pup-map-img {
+    height: 100%; /* Make the image fully cover the height of the main */
+    width: auto; /* Adjust the width proportionally */
+    object-fit: contain; /* Ensure the image scales proportionally */
+}
+
+/* Information box */
+.map-info {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-sizing: border-box;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Style for the image inside the information box */
+.map-info img {
+    margin-bottom: 15px;
+    display: none;
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 300px; /* Prevent the image from growing too tall */
+    object-fit: contain; /* Ensure the image fits without cropping */
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the title inside the information box */
+.map-info h2 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: #700000; /* Accent color for the title */
+    word-wrap: break-word; /* Prevent long words from overflowing */
+}
+
+/* Style for the description inside the information box */
+.map-info p {
+    margin: 0;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    color: #555; /* Softer color for the description */
+    word-wrap: break-word; /* Prevent long words from overflowing */
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #700000;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.8em;
+}

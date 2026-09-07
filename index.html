@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUP Maps and Directory
+    </title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="https://www.pup.edu.ph/" target="_blank">
+                <div class="brand">
+                    <div class="brand-logo">
+                        <img src="./assets/pup-logo.png" alt="PUP Logo">
+                    </div>
+                    <div class="brand-name">
+                        <h4 class="title">Polytechnic University of the Philippines</h4>
+                        <h6 class="sub">The Country's First PolytechnicU</h6>                                              
+                    </div>
+                </div>
+            </a>
+        </div>
+    </header>
+    
+    <main>
+        <!-- Image Map -->
+        <img src="./assets/pup-map.jpg" alt="PUP Vicinity Map" usemap="#pup-map" id="pup-map-img">
+        
+        <map name="pup-map">
+            <area shape ="poly" coords="789, 431, 817, 422, 817, 417, 825, 415, 826, 422, 847, 435, 843, 450, 835, 453, 820, 450, 789, 438" href="#" alt="PUP Pylon"
+                title="PUP Pylon"
+                onmouseover="showInfo('PUP Pylon', 'Area 1: The PUP Pylon originally stood for the true, the good and the beautiful.', 'assets/area-images/pylon.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="circle" coords="785, 459, 12" href="#" alt="The Mural"
+                title="The Mural"
+                onmouseover="showInfo('The Mural', 'The Mural: The sculpture (Cut and welded brass mural relief, 2.5 x 9.3 meters) was built by national artist Eduardo Castrillo ✝ in 1974.', 'assets/area-images/mural.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="circle" coords="795, 410, 12" href="#" alt="Visitor's Lounge"
+                title="Visitor's Lounge"
+                onmouseover="showInfo('Visitor\'s Lounge', 'Visitor\'s Lounge: A welcoming space for guests and visitors, offering a comfortable environment to relax and learn more about PUP.', 'assets/area-images/visitorslounge.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">            
+            <area shape ="poly" coords="820, 373, 867, 394, 902, 415, 848, 432, 775, 386" href="#" alt="Open Court"
+                title="Open Court"
+                onmouseover="showInfo('Open Court', 'Open Court: A versatile outdoor area and gym fit designed for various sports and recreational activities, promoting community engagement and physical well-being.', 'assets/area-images/opencourt.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="751, 333, 813, 364, 758, 377, 696, 345" href="#" alt="Lawn Tennis Court"
+                title="Lawn Tennis Court"
+                onmouseover="showInfo('Lawn Tennis Court', 'Lawn Tennis Court: A dedicated space for tennis enthusiasts, promoting fitness, discipline, and sportsmanship in a welcoming environment.', 'assets/area-images/tenniscourt.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="686, 299, 740, 328, 687, 340, 634, 309" href="#" alt="Basketball Court"
+                title="Basketball Court"
+                onmouseover="showInfo('Basketball Court', 'Basketball Court: A dedicated outdoor space for basketball games and training, fostering teamwork, sportsmanship, and physical fitness in a competitive yet enjoyable environment.', 'assets/area-images/basketballcourt.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="594, 349, 594, 366, 603, 371, 622, 372, 622, 353, 610, 343, 603, 345" href="#" alt="Souvenir Shop"
+                title="Souvenir Shop"
+                onmouseover="showInfo('Souvenir Shop', 'Souvenir Shop: Souvenir Shop offers memorabilia featuring the university logo or landmarks, representing pride and connection to the community.', 'assets/area-images/souvenirshop.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="circle" coords="544, 327, 14" href="#" alt="Mabini Shrine"
+                title="Mabini Shrine"
+                onmouseover="showInfo('Mabini Shrine', 'Mabini Shrine: A. Mabini Shrine marks the life and legacy of Apolinario Mabini. It houses a museum and a replica of his residence, educating the public about this revered Filipino hero and his role in the Philippine Revolution.', 'assets/area-images/mabinishrine.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="526, 319, 529, 338, 485, 338, 485, 319, 501, 313" href="#" alt="Mabini Museum"
+                title="Mabini Museum"
+                onmouseover="showInfo('Mabini Museum', 'Mabini Museum: An interactive museum chronicling the life and legacy of Apolinario Mabini, featuring artifacts, exhibits, and galleries that highlight his contributions to the Philippine Revolution and Filipino nationalism.', 'assets/area-images/mabinimuseum.JPG'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="556, 292, 556, 261, 562, 261, 563, 293, 573, 288, 580, 291, 589, 303, 587, 306, 574, 312, 551, 312, 536, 310, 531, 302, 537, 295, 547, 293" href="#" alt="Obelisk"
+                title="Obelisk"
+                onmouseover="showInfo('Obelisk', 'Obelisk: The Obelisk, standing majestic on its base, depicts the strength of the Polytechnic University of the Philippines as an institution of higher learning, promoting educational and moral aims which are fortified by a determined leadership with a clear vision for the Filipino youth and an efficient support system inspired by the virtues of public service.', 'assets/area-images/obelisk.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="circle" coords="452, 317, 18" href="#" alt="Freedom Park"
+                title="Freedom Park"
+                onmouseover="showInfo('Freedom Park', 'Freedom Park: A scenic walkway with benches, leading to the north wing of the PUP Main Building, offering a peaceful space for relaxation, reflection, and social interaction within the campus.', 'assets/area-images/freedompark.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="337, 347, 345, 336, 364, 332, 378, 331, 395, 341, 390, 348, 365, 351, 342, 351" href="#" alt="Fountain Park"
+                title="Fountain Park"
+                onmouseover="showInfo('Fountain Park', 'Fountain Park: A serene space near the Inter-Faith Chapel, featuring a fountain and open seating areas, offering a relaxing environment for reflection and rest.', 'assets/area-images/fountain.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="210, 315, 224, 299, 245, 313, 266, 313, 288, 315, 305, 321, 315, 333, 313, 340, 303, 354, 283, 361, 242, 371, 190, 373, 154, 370, 142, 358, 142, 346, 149, 335, 179, 321, 198, 316" href="#" alt="Inter-Faith Chapel"
+                title="Inter-Faith Chapel"
+                onmouseover="showInfo('Inter-Faith Chapel', 'Inter-Faith Chapel: The Interfaith Chapel is a sacred space designed to provide a welcoming environment for people of all faiths and beliefs to come together for prayer, reflection, and meditation, fostering spiritual growth, understanding, and respect for diversity.', 'assets/area-images/chapel.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="89, 239, 103, 233, 189, 206, 209, 201, 251, 210, 251, 215, 265, 199, 279, 197, 317, 198, 326, 200, 328, 233, 326, 238, 415, 255, 419, 260, 415, 264, 416, 304, 384, 321, 371, 328, 338, 320, 332, 318, 337, 312, 273, 297, 244, 297, 225, 297, 219, 301, 107, 321, 103, 313, 96, 314, 87, 299, 81, 262, 90, 259" href="#" alt="Main Academic Building"
+                title="Main Academic Building"
+                onmouseover="showInfo('Main Academic Building', 'Main Academic Building: It is the main administrative building of the PUP Mabini Campus. It serves as centers for teaching, research, and administration, providing an environment conducive to educational growth and creativity. The building houses various offices, such as the Office of the President, the Office of the Vice President for Academic Affairs, the Office of the Vice President for Administration, and the Office of the Vice President for Student Affairs.', 'assets/area-images/mainbldg.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="318, 366, 384, 359, 385, 370, 379, 372, 373, 379, 365, 382, 358, 379, 352, 375, 320, 377" href="#" alt="Gazebo"
+                title="Gazebo"
+                onmouseover="showInfo('Gazebo', 'Gazebo: Hut-like structures scattered across various parts of the campus, especially at the Oval and Linear Park, providing seating and tables for students to relax, study, or socialize in a shaded environment.', 'assets/area-images/gazebo.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="415, 374, 416, 370, 419, 366, 421, 366, 423, 357, 420, 352, 428, 344, 473, 347, 530, 352, 530, 377, 527, 382, 483, 379, 479, 382, 459, 381, 457, 377" href="#" alt="Grandstand"
+                title="Grandstand"
+                onmouseover="showInfo('Grandstand', 'Grandstand: A versatile venue for student athletic events, school functions, ceremonies, and various programs or events, providing a space for gatherings and celebrations.', 'assets/area-images/grandstand.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="319, 381, 592, 397, 628, 405, 655, 416, 678, 431, 692, 451, 692, 469, 662, 505, 600, 527, 518, 524, 496, 501, 477, 491, 453, 507, 384, 502, 377, 517, 241, 510, 207, 502, 169, 476, 170, 441, 181, 424, 198, 413, 231, 398, 285, 385" href="#" alt="Oval"
+                title="Oval"
+                onmouseover="showInfo('Oval', 'Oval: A multi-purpose field for softball, soccer, and football, designed to accommodate multiple sports classes and student athlete activities simultaneously.', 'assets/area-images/oval.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="387, 504, 444, 508, 434, 541, 398, 551, 378, 536, 378, 522" href="#" alt="Tahanan ng Atleta"
+                title="Tahanan ng Atleta"
+                onmouseover="showInfo('Tahanan ng Atleta', 'Tahanan ng Atleta: A dedicated facility envisioned as a home for PUP athletes, made possible through the efforts and generosity of the PUP Alumni Association USA, providing a space to support and nurture athletic excellence.', 'assets/area-images/tahananatleta.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="312, 533, 345, 525, 357, 544, 352, 545, 355, 574, 324, 583, 309, 559, 314, 556" href="#" alt="Gabriela Silang Building"
+                title="Gabriela Silang Building"
+                onmouseover="showInfo('Gabriela Silang Building', 'Gabriela Silang Building: Dedicated to Gabriela Silang, a symbol of courage and resistance in Philippine history, this building embodies the spirit of empowerment and resilience. It also features a recently renovated conference room, providing a modern space for meetings, seminars, and collaborative activities.', 'assets/area-images/gabrielasilang.png'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="63, 316, 76, 310, 92, 311, 121, 359, 122, 381, 99, 388" href="#" alt="Food and Nutrition Building"
+                title="Food and Nutrition Building"
+                onmouseover="showInfo('Food and Nutrition Building', 'Food and Nutrition Building:A facility dedicated to supporting Nutrition and Dietetics programs, providing spaces for learning, research, and practical training in the field of nutrition and dietetics.', 'assets/area-images/foodnutrition.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="47, 283, 57, 277, 70, 277, 75, 286, 73, 304, 56, 305" href="#" alt="Facility Management Office"
+                title="Facility Management Office"
+                onmouseover="showInfo('Facility Management Office', 'Facility Management Office: A dedicated space for managing and maintaining the university\'s facilities, ensuring a safe, functional, and efficient environment for students, faculty, and staff. It also houses the PUP Pasig River Ferry Station, offering a convenient and eco-friendly travel option that connects the campus to key areas along the Pasig River, promoting sustainable transportation.', 'assets/area-images/ferrystation.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="316, 192, 332, 186, 340, 186, 345, 188, 346, 194, 345, 208, 339, 218, 330, 219, 327, 200, 318, 198" href="#" alt="Sampaguita Building"
+                title="Sampaguita Building"
+                onmouseover="showInfo('Sampaguita Building', 'Sampaguita Building: An in-house canteen, coffee shop, and other food services from private concessionaires renting food stalls. The University Canteen offers take-out food services and reservation for events and meetings.', 'assets/area-images/sampaguita.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="345, 213, 351, 209, 351, 201, 360, 197, 367, 199, 369, 205, 372, 211, 370, 221, 345, 223" href="#" alt="Student Center"
+                title="Student Center"
+                onmouseover="showInfo('Student Center', 'Student Center: A dedicated building near the Charlie Del Rosario Building, providing students with spaces for activities, meetings, and relaxation, fostering a sense of community and engagement.', 'assets/area-images/studentcenter.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="380, 224, 380, 210, 392, 183, 412, 179, 439, 186, 439, 202, 434, 224" href="#" alt="Charlie Del Rosario Building"
+                title="Charlie Del Rosario Building"
+                onmouseover="showInfo('Charlie Del Rosario Building', 'Charlie Del Rosario Building: A center for student development dedicated to Charlie Del Rosario, an activist and the first victim of the Marcos regime, who advocated for the rights of the oppressed.', 'assets/area-images/charlie.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="circle" coords="428, 170, 12" href="#" alt="Linear Park"
+                title="Linear Park"
+                onmouseover="showInfo('Linear Park', 'Linear Park: The PUP Linear Park is a 1.1-acre green space along the Pasig River, offering a relaxing environment for students and faculty to unwind, socialize, and enjoy outdoor activities.', 'assets/area-images/linearpark.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            
+            <area shape ="poly" coords="446, 188, 445, 168, 449, 151, 461, 148, 536, 147, 537, 185, 476, 188, 456, 189" href="#" alt="Laboratory High School Building"
+                title="Laboratory High School Building"
+                onmouseover="showInfo('Laboratory High School Building', 'Laboratory High School Building: A newly renovated facility at PUP, providing modernized spaces to support the academic and extracurricular needs of the PUP Laboratory High School community.', 'assets/area-images/highschool.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="circle" coords="506, 135, 12" href="#" alt="Printing Press Building"
+                title="Printing Press Building"
+                onmouseover="showInfo('Printing Press Building', 'Printing Press Building: A facility providing printing services for textbooks, handouts, and other essential documents, supporting the academic and administrative needs of PUP.', 'assets/area-images/printingpress.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="539, 170, 539, 153, 541, 151, 542, 144, 549, 141, 556, 144, 559, 150, 556, 157, 549, 160, 548, 170" href="#" alt="Property and Supply Management Office"
+                title="Property and Supply Management Office"
+                onmouseover="showInfo('Property and Supply Management Office', 'Property and Supply Management Office: Manages the university\'s assets and supplies, ensuring efficient allocation and maintenance to support academic and administrative operations.', 'assets/area-images/propertyandsupply.png'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="551, 170, 551, 162, 554, 160, 573, 158, 580, 161, 580, 165, 576, 173, 570, 177, 570, 180, 562, 182, 562, 175" href="#" alt="Water Tower"
+                title="Water Tower"
+                onmouseover="showInfo('Water Tower', 'Water Tower: A structure designed to store and supply water, ensuring a reliable water source for the university\'s facilities and operations.', 'assets/area-images/watertower.png'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="465, 245, 465, 213, 594, 174, 627, 180, 627, 199, 640, 203, 639, 237, 614, 240, 590, 245, 560, 243, 533, 241, 500, 251" href="#" alt="Ninoy Aquino Learning Resource Center"
+                title="Ninoy Aquino Learning Resource Center"
+                onmouseover="showInfo('Ninoy Aquino Learning Resource Center', 'Ninoy Aquino Learning Resource Center: Ninoy Aquino Learning Resource Center: One of the largest libraries in Southeast Asia, offering study areas, online databases, and books, while also housing the Open University System and College of Law to support academic and research needs.', 'assets/area-images/library.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="463, 247, 444, 277, 421, 273, 425, 255, 395, 249, 397, 232, 458, 222, 462, 223, 462, 244" href="#" alt="Lagoon Commercial Spaces"
+                title="Lagoon Commercial Spaces"
+                onmouseover="showInfo('Lagoon Commercial Spaces', 'Lagoon Commercial Spaces: The Lagoon Commercial Spaces are retail areas within the campus that offer various services and products to students, faculty, and visitors. These spaces provide convenience, featuring shops, food outlets, and other services to support the campus community.', 'assets/area-images/lagoon.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="circle" coords="383, 240, 12" href="#" alt="Amphitheater"
+                title="Amphitheater"
+                onmouseover="showInfo('Amphitheater', 'Amphitheater: The Amphitheater is an outdoor venue located within the lagoon, hosting concerts, plays, and student events, and fostering cultural expression and community engagement.', 'assets/area-images/amphitheater.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="448, 279, 465, 247, 498, 256, 533, 244, 570, 248, 569, 258, 574, 268, 564, 271, 563, 259, 555, 259, 555, 271, 516, 278, 490, 282" href="#" alt="Lagoon Park"
+                title="Lagoon Park"
+                onmouseover="showInfo('Lagoon Park', 'Lagoon Park: A scenic and landscaped area within the PUP Lagoon, serving as an open space for leisure, relaxation, and recreational activities for students and visitors.', 'assets/area-images/lagoon2.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="641, 229, 642, 199, 659, 192, 666, 193, 666, 198, 707, 216, 707, 225, 669, 233, 655, 234" href="#" alt="Nutrition & Food Technology Research and Development Center Building"
+                title="Nutrition & Food Technology Research and Development Center Building"
+                onmouseover="showInfo('Nutrition & Food Technology Research and Development Center Building', 'Nutrition & Food Technology Research and Development Center Building: Located at the rear side of the Ninoy Aquino Learning Resource Center, this facility focuses on advancing research and innovation in nutrition and food technology, supporting academic programs and practical training in these fields.', 'assets/area-images/nutritionfoodtech.png'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="614, 266, 600, 260, 600, 246, 604, 245, 718, 226, 725, 235, 724, 251, 722, 251, 722, 236, 720, 236, 713, 231, 669, 238, 669, 258" href="#" alt="Human Kinetics Building"
+                title="Human Kinetics Building"
+                onmouseover="showInfo('Human Kinetics Building', 'Human Kinetics Building: A facility supporting the College of Human Kinetics\' mission to promote physical education, well-being, and sports development, aligned with the university\'s vision for excellence in these fields.', 'assets/area-images/chkbldg.png'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="681, 263, 671, 259, 670, 241, 674, 239, 712, 234, 721, 239, 721, 257, 712, 259, 691, 262" href="#" alt="Tahanan ng Alumni"
+                title="Tahanan ng Alumni"
+                onmouseover="showInfo('Tahanan ng Alumni', 'Tahanan ng Alumni: Tahanan ng Alumni provides a space for gatherings and events and fosters connections between graduates. ', 'assets/area-images/alumni.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="740, 297, 693, 268, 732, 261, 770, 279, 759, 286, 759, 297, 750, 299" href="#" alt="Swimming Pool"
+                title="Swimming Pool"
+                onmouseover="showInfo('Swimming Pool', 'Swimming Pool: An Olympic-sized pool designed to accommodate multiple swimming classes and student-athlete events simultaneously.', 'assets/area-images/pool.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="885, 331, 883, 370, 877, 372, 760, 314, 760, 286, 764, 285, 771, 280, 781, 274, 788, 270, 794, 268, 803, 265, 829, 264, 954, 314, 927, 320" href="#" alt="Multi-Purpose Building"
+                title="Multi-Purpose Building"
+                onmouseover="showInfo('Multi-Purpose Building', 'Multi-Purpose Building: Also known as the PUP Gymnasium, which serves as a training facility for student athletes participating in intercollegiate sports programs. It also hosts events, ceremonies, and other university programs, providing a versatile space for various activities.', 'assets/area-images/gymnasium.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="886, 353, 888, 332, 897, 329, 929, 322, 962, 314, 976, 311, 993, 318, 993, 328, 1000, 333, 993, 379, 960, 388, 923, 399, 884, 380, 884, 375, 903, 361" href="#" alt="Engineering and Science Research Center"
+                title="Engineering and Science Research Center"
+                onmouseover="showInfo('Engineering and Science Research Center', 'Engineering and Science Research Center: The Research Center supports faculty and students in conducting research studies, encouraging innovation and knowledge creation.', 'assets/area-images/researchcenter.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="763, 122, 764, 112, 779, 105, 789, 107, 795, 105, 802, 107, 803, 108, 815, 104, 825, 100, 830, 100, 833, 102, 833, 113, 805, 126, 790, 124, 779, 123" href="#" alt="Communication Building"
+                title="Communication Building"
+                onmouseover="showInfo('Communication Building', 'Communication Building: A facility for students under the College of Communication, providing spaces for learning, collaboration, and creative development in the field of communication.', 'assets/area-images/communicationbldg.png'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);"> 
+            <area shape ="poly" coords="803, 105, 794, 102, 781, 102, 781, 96, 793, 89, 797, 83, 803, 81, 809, 83, 811, 86, 811, 95, 824, 95, 824, 99, 812, 103" href="#" alt="PUP Theater"
+                title="PUP Theater"
+                onmouseover="showInfo('PUP Theater', 'PUP Theater: The Tanghalang PUP is a proscenium theatre with a 650-seating capacity, featuring balcony and orchestra spaces. Its vicinity includes an outdoor performance space, the Tanghalang PUP façade, two roofdeck performance areas, and a balcony exhibit space, all of which can accommodate intimate performances and art exhibitions.', 'assets/area-images/theater.png'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="818, 86, 817, 68, 822, 66, 851, 66, 856, 68, 859, 78, 858, 92, 848, 92, 845, 94, 840, 97, 834, 94, 826, 92" href="#" alt="Engineering and Architecture Building"
+                title="Engineering and Architecture Building"
+                onmouseover="showInfo('Engineering and Architecture Building', 'Engineering and Architecture Building: A welcoming space for guests and visitors, offering a comfortable environment to relax and learn more about PUP.', 'assets/area-images/cea.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="759, 59, 742, 59, 726, 59, 714, 54, 714, 32, 725, 31, 743, 30, 760, 37" href="#" alt="Condotel"
+                title="Condotel"
+                onmouseover="showInfo('Condotel', 'Condotel: A facility managed by the College of Business Administration, providing experiential learning opportunities for students through hands-on training in hospitality and business management, while fostering industry-academe partnerships.', 'assets/area-images/condotel.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="circle" coords="883, 97, 14" href="#" alt="NDC Tennis Court and Club House"
+                title="NDC Tennis Court and Club House"
+                onmouseover="showInfo('NDC Tennis Court and Club House', 'NDC Tennis Court and Club House: A facility near the College of Engineering and Architecture Building, offering tennis courts and a clubhouse for recreational and athletic activities.', 'assets/area-images/ndctenniscourt.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="861, 80, 857, 68, 875, 68, 878, 64, 887, 64, 890, 68, 899, 68, 902, 74, 902, 80, 883, 82" href="#" alt="NDC Covered Court"
+                title="NDC Covered Court"
+                onmouseover="showInfo('NDC Covered Court', 'NDC Covered Court: Located near the College of Engineering and Architecture Building, this facility is designed for basketball and volleyball games, providing a versatile space for sports and student activities.', 'assets/area-images/courtndc.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="914, 85, 914, 77, 928, 75, 933, 70, 938, 69, 943, 71, 945, 73, 959, 74, 968, 84, 968, 91, 947, 91, 922, 91" href="#" alt="Business Processing Office"
+                title="Business Processing Office"
+                onmouseover="showInfo('Business Processing Office', 'Business Processing Office: A facility that supports training and development in office administration, management, and technology, preparing students for professional roles in diverse industries.', 'assets/area-images/businessoffice.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="932, 69, 925, 61, 913, 61, 908, 54, 903, 54, 898, 54, 893, 52, 887, 52, 887, 49, 892, 45, 929, 45, 930, 36, 939, 34, 946, 37, 947, 43, 946, 49, 942, 51, 952, 61, 950, 70, 944, 70, 938, 68" href="#" alt="Information Technology Building"
+                title="Information Technology Building"
+                onmouseover="showInfo('Information Technology Building', 'Information Technology Building: Located at the NDC Campus, this facility supports programs and activities in information technology, providing spaces for learning, innovation, and collaboration in the field.', 'assets/area-images/informationtechbldg.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="910, 64, 894, 63, 875, 62, 875, 60, 870, 59, 866, 55, 866, 47, 870, 42, 875, 41, 880, 42, 883, 48, 883, 53, 892, 53, 910, 59" href="#" alt="Antique House"
+                title="Antique House"
+                onmouseover="showInfo('Antique House', 'Antique House: The main building of the former Philippine College of Commerce, located at the NDC Campus, preserving its historical significance within PUP.', 'assets/area-images/antiquehouse.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="circle" coords="1004, 18, 14" href="#" alt="Graduate School"
+                title="Graduate School"
+                onmouseover="showInfo('Graduate School', 'Graduate School: The PUP Graduate School provides advanced professional studies and research in specialized fields leading to doctorate and master\'s degree programs for professionals.', 'assets/area-images/graduateschool.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+            <area shape ="poly" coords="1056, 29, 1049, 26, 1051, 12, 1065, 11, 1070, 13, 1082, 13, 1089, 17, 1086, 37, 1073, 38, 1069, 43, 1063, 45, 1057, 42, 1054, 35, 1055, 32" href="#" alt="Hasmin Building"
+                title="Hasmin Building"
+                onmouseover="showInfo('Hasmin Building', 'Hasmin Building: Hasmin building houses the College of Tourism, Hospitality, and Transportation Management, supporting programs in these specialized fields.', 'assets/area-images/hasmin.jpg'); highlightArea(this);"
+                onmouseout="hideInfo(); removeHighlight(this);">
+        </map>
+        
+        <!-- Information Box -->
+        <div class="map-info" id="map-info">
+            <img id="map-info-img" src="" alt="Area Image">
+            <h2 id="map-info-title">Hover over an area</h2>
+            <p id="map-info-description">Hover over the map to see details about specific areas.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Polytechnic University of the Philippines. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
