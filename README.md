@@ -4,6 +4,10 @@ This mini-project presents an interactive vicinity map of the Polytechnic Univer
 
 Using an image map with defined area coordinates, the website allows users to hover over specific sections of the campus map to instantly view relevant facility information alongside a corresponding image — creating a simple but informative browsing experience without needing to navigate away from the map itself.
 
+## Live Demo
+Click the link below to visit the live site and explore the PUP vicinity map:
+[pup-vicinity-map.vercel.app](https://pup-vicinity-map.vercel.app/)
+
 ## About
 
 Navigating a large university campus for the first time can be overwhelming, especially for new students, transferees, or visitors unfamiliar with the grounds. This project aims to make that experience easier by providing a visual, interactive reference that highlights key facilities and their locations at a glance.
